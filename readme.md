@@ -34,7 +34,7 @@ It is designed to demonstrate Dockerization, CI/CD automation, and cloud deploym
 
 ### Steps
 ```bash
-git clone <your-repository-url>
+git clone <https://github.com/Pushpa1212/HTTP-Project>
 cd devops-http-app
 docker build -t devops-http-app .
 docker run -p 8080:8080 devops-http-app
