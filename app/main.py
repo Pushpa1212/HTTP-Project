@@ -2,11 +2,12 @@ from flask import Flask
 import os
 
 app = Flask(__name__)
+
 PORT = int(os.environ.get("PORT", 8080))
 
 @app.route("/")
 def home():
-    return "Hello from AWS DevOps Project 🚀"
+    return "Hello from DevOps HTTP App 🚀"
 
 @app.route("/health")
 def health():
